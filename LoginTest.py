@@ -2,13 +2,10 @@ import unittest
 import HtmlTestRunner
 import time
 from selenium import webdriver
-
-
-import os
-
-from testbed.loginpage import LoginPage
 import sys
-sys.path.append("C:/Users/vishv/Desktop/1.2/testbed")
+sys.path.append('C:\\Users\\vishv\\Desktop\\ones_testing')
+from pages.loginpage import LoginPage
+
 
 
 class LoginTest(unittest.TestCase):
